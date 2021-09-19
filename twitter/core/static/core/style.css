@@ -1,0 +1,28 @@
+
+html {
+    background-color:black;
+}
+
+body {
+    background: url('{% static "image/splash.jpg" %}') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    background-color: azure;
+    font: Tahoma sans-serif);
+    width: 470px;
+    border-radius: 20px;
+    height: 400px;
+}
+
+.card {
+    padding-left:10px;
+    margin-top: 100px;
+    padding-right:10px;
+    position: relative;
+    border: none;
+}
